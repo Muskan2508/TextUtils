@@ -50,7 +50,7 @@ function App() {
     <div className='container my-3'>
     <Switch>
           <Route path="/about">
-            <About />
+            <About mode={mode}/>
           </Route>
           <Route path="/">
           <TextForm showAlert={showAlert} heading="Enter the text to analyze" mode={mode}/>
